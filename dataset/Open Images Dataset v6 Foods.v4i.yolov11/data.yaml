@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 33
+names: ['Apple', 'Banana', 'Bell pepper', 'Bread', 'Broccoli', 'Cake', 'Carrot', 'Cheese', 'Cookie', 'Croissant', 'Cucumber', 'Doughnut', 'Egg', 'French fries', 'Grape', 'Hamburger', 'Ice cream', 'Lemon', 'Mango', 'Muffin', 'Orange', 'Pancake', 'Pasta', 'Peach', 'Pear', 'Pizza', 'Potato', 'Salad', 'Strawberry', 'Sushi', 'Tomato', 'Waffle', 'Watermelon']
+
+roboflow:
+  workspace: foodai
+  project: open-images-dataset-v6-foods
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/foodai/open-images-dataset-v6-foods/dataset/4
